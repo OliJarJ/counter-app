@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+body {
+    background-image: url('./maxim-berg-qqbXgiOAWyE-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 0;
+    height: 100vh;
+  }
+  
+  .App {
+    margin: auto;
+    width: 60%;
+    height: auto;
+    border-radius: 20px;
+    justify-content: center;
+  }
+  
+  button {
+    height: 50px;
+    width: auto;
+    transition-duration: .10s;
+    background-color: #40a8dcdf;
+    color: #ddfff4;
+    font-weight: bold;
+    border: 3px solid  #40a8dcdf;
+    border-radius: 5px;
+    margin-left: 1.5rem;
+  }
+  
+  button:hover {
+    background-color:  #99E0EA;
+    color:#ffffff;
+    border: 3px solid #99E0EA;
+  }
+  
+  h4,p {
+    font-size: 50px;
+    color: #3ee08193;
+  }
+  
+  p {
+   flex-direction: row;
+   text-align: center;
+   font-weight: bolder;
+  }
+  
+  h1{
+    color:#ffffff;
+    font-size:xx-large;
+    flex-direction: row;
+   text-align: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
